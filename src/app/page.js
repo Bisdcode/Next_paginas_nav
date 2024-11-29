@@ -11,6 +11,8 @@ export default function Home() {
       <Link href="/sobre">Sobre</Link>
       {/* Dados dinâmicos */}
       <Link href="/posts">Posts</Link>
+      {/* Parâmetros na URL */}
+      <Link href="/exemplo?parametro=valor">Página com parâmetro</Link>
     </div>
   );
 }
